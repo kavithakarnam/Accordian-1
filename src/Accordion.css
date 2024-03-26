@@ -1,0 +1,44 @@
+h1{
+  text-align: center;
+  margin:auto;
+  
+  
+}
+
+.accordion {
+    
+    border: 1px solid #191717;
+    border-radius: 5px;
+    font-size: 15px;
+     width:750px;
+    
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top: 50px;
+    margin-left: 400px;
+    
+    
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(30, 185, 227); 
+    color: #333; 
+  }
+  
+  .accordion-header:hover {
+    background-color: #1496e2; 
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    background-color: #139bbd; 
+    color:black; 
+    margin-top:1px;
+  }
+  
